@@ -1,0 +1,8 @@
+first download the file and create a virtual env then
+run pip install -r requirements.txt to download all required files
+then download pytorch from: pip3 install torch torchvision torchaudio
+then run app.py file and the file will start working 
+to train the file we need images so
+to download images from google we are having a folder name image loader
+open the folder and run the the python file image_down 
+to run this file first install : pip install simple_image_download and replace lion with your desired image requirement
