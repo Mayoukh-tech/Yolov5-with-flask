@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YOLO-Object Detection</title>
+    <link rel="stylesheet" href="../static/style.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="../static/style.js"></script>
+  </head>
+  <body>
+    <div class="App">
+      <header class="App-header">
+        <p><u> YOLO </u></p>
+        <!-- <div className="pre_img">
+          <span><img id="imagebox" src="" /></span>
+        </div> -->
+        <!-- <video width="320" height="240" controls>
+          <source src="/static/video_1.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video> -->
+        <button name="cam" class="button" id="opencam">Video Cam</button>
+        <br/>
+        <hr class="line" />
+        <h1> not in use </h1>
+        <form>
+          <input
+            id="imageinput"
+            type="file"
+            name="image"
+            onchange="readUrl(this)"
+          />
+        </form>
+        <button name="send"  class="button" id="sendbutton">Send</button>
+        <br/>
+        <button name="send"  class="btn btn-default">Download</button>
+        <br/>
+      </header>
+    </div>
+  </body>
+</html>
